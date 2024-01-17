@@ -1,0 +1,30 @@
+
+
+
+.nav-list {
+    float: left;
+    list-style-type: none;
+    margin: 10px;
+    font-size: 20px;
+    margin-left: 191px;
+
+
+}
+
+.sub-nav {
+    display: none;
+    width: 15px;
+
+
+}
+
+.servicelist:hover .sub-nav {
+    display: block !important;
+
+}
+
+.img {
+    width: 25px;
+    height: 40px;
+    background-size: cover;
+}

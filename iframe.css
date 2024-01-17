@@ -1,0 +1,12 @@
+.iframe-web{
+    width: 100%;
+    height: 1000px;
+}
+.run{
+    width: 600px;
+    height: 500px;
+    margin: 30px;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}

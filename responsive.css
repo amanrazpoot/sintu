@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(94, 255, 0);
+}
+
+.aman {
+    width: 100%;
+    height: auto;
+}
+
+.raj {
+    width: 24%;
+    height: 350px;
+    background-image: url(https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?cs=srgb&dl=pexels-anjana-c-674010.jpg&fm=jpg);
+    background-size: cover;
+    margin: 2px;
+    float: left;
+}
+
+@media screen and (max-width:900px) {
+    body {
+        background-color: rgb(241, 155, 25);
+    }
+
+    .raj {
+        width: 48%;
+        height: 350px;
+        background-image: url(https://e0.pxfuel.com/wallpapers/692/714/desktop-wallpaper-beautiful-nature-latest-beauty-nature.jpg);
+        background-size: cover;
+        margin: 2px;
+        float: left;
+    }
+}
+
+@media screen and (max-width:480px) {
+    body {
+        background-color: rgb(241, 25, 187);
+    }
+
+    .raj {
+        width: 98%;
+        height: 350px;
+        background-image: url(https://images.pexels.com/photos/326055/pexels-photo-326055.jpeg?cs=srgb&dl=pexels-pixabay-326055.jpg&fm=jpg);
+        background-size: cover;
+        margin: 2px;
+        float: left;
+    }
+}

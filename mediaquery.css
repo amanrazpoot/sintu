@@ -1,0 +1,40 @@
+body{
+    background-color: aqua;
+}
+
+.row{
+    width: 100%;
+    height: auto;
+}
+.column{
+    width: 24%;
+    height: 350px;
+    background-color: blue;
+    margin: 2px;
+    float: left;
+}
+@media screen and (max-width:820px){  
+    body{
+        background-color: rgb(0, 0, 0);
+    }
+    .column{
+        width: 48%;
+        height: 254px;
+        background-color: rgb(185, 20, 8);
+        margin: 2px;
+        float: left;
+    }
+}
+@media screen and (max-width:480px){
+    body{
+        background-color: red;
+    }
+    .column{
+        width: 98%;
+        height: 254px;
+        background-color: rgb(138, 240, 129);
+        margin: 2px;
+        float: left;
+        
+    }
+}

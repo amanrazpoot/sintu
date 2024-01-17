@@ -1,0 +1,66 @@
+body {
+    background-image: url(https://images.pexels.com/photos/17515873/pexels-photo-17515873/free-photo-of-hawaii-diamond-head.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
+.box {
+    width: 300px;
+    height: 300px;
+    background-image: url(https://images.pexels.com/photos/819370/pexels-photo-819370.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    position: relative;
+    color: rgb(0, 26, 255);
+    font-size: 30px;
+    animation: blink 8s infinite;
+    border-radius: 12px;
+    border: 2px solid black;
+    text-align: center;
+    align-items: center;
+    font-size: 35px;
+    box-shadow: 10px 10px 10px 10px black;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  
+
+
+}
+.box:hover{
+    transform:rotate(90deg);
+    transition: 10s all;
+}
+
+@keyframes blink {
+    0% {
+        background-image: url(https://images.pexels.com/photos/6631855/pexels-photo-6631855.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+        left: 0px;
+        top: 0px;
+    }
+
+    50% {
+        background-image: url(https://images.pexels.com/photos/17733825/pexels-photo-17733825/free-photo-of-bird-sitting-on-tree-branch.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+        left: 800px;
+        top: 0px;
+    }
+
+    70% {
+        background-image: url(https://images.pexels.com/photos/17486395/pexels-photo-17486395/free-photo-of-heron-in-grass.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+        left: 800px;
+        top: 200px;
+    }
+
+    09% {
+        background-image: url(https://images.pexels.com/photos/17489112/pexels-photo-17489112/free-photo-of-red-parrot-perching-on-a-branch.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+        left: -50px;
+        top: 200px;
+    }
+
+    100% {
+        background-image: url(https://images.pexels.com/photos/55832/flock-of-birds-canada-geese-geese-wing-55832.jpeg);
+        left: -50px;
+        top: -50px;
+    }
+}
